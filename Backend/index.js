@@ -7,7 +7,7 @@ var port = process.env.port || 3678;
 const app = express();
 //connect to mongo db
 mongoose.connect(
-  "mongodb+srv://BGaspar2:Bryan_G1@pacientes.9xsj78t.mongodb.net"
+  "YOUR_MONGODB_CONNECTION_STRING",
 );
 app.use(cors());
 //Indicar el fromato json para el archivo
